@@ -1,0 +1,1 @@
+Additional information that is not required in any shape or form when it comes to learning mathematics, although, it can prove useful in trying to understand it's structure.
