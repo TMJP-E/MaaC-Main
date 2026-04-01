@@ -9,3 +9,17 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+.space
+.stfolder/
+.trash
+.makemd
+
+*.kra
+*.canvas
+
+# Temporal drafts, exclude or include from the config as well.
+1-TheFoundations/
+2-CountingNumbers/
+3-StructuringNumbers/
+4-GoingBeyond/
+5-BeyondUniverse/

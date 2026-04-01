@@ -1,5 +1,0 @@
-# This directory is a Syncthing folder marker.
-# Do not delete.
-
-folderID: ogktu-4mncp
-created: 2026-01-29T06:56:57-06:00

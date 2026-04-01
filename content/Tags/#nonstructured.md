@@ -1,1 +1,0 @@
-Explicitly states that the section will not follow the conventional structure.
