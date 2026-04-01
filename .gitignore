@@ -1,3 +1,5 @@
+# Default Quartz
+
 .DS_Store
 .gitignore
 node_modules
@@ -9,3 +11,16 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# MaaC Exclusive
+*.space
+*.canvas
+*.stfolder
+*.kra
+
+# Drafts
+1-TheFoundations/
+2-CountingNumbers/
+3-StructuringNumbers/
+4-GoingBeyond/
+5-BeyondUniverse/
