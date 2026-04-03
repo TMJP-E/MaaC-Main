@@ -19,7 +19,7 @@ const config: QuartzConfig = {
     // websiteId: "<your-umami-website-id>",
     //},
     locale: "en-US",
-    baseUrl: "", //EDIT
+    baseUrl: "TMJP-E.github.io/MaaC",
     ignorePatterns: [
       "private",
       "templates",
