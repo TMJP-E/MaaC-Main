@@ -18,7 +18,7 @@ replit.nix
 *.stfolder
 *.kra
 
-# Drafts
+# Drafts, change on quartz.config.ts as well.
 1-TheFoundations/
 2-CountingNumbers/
 3-StructuringNumbers/
