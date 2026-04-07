@@ -17,3 +17,6 @@ replit.nix
 *.canvas
 *.stfolder
 *.kra
+
+# Template exclusive
+content/

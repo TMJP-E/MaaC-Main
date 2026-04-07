@@ -26,7 +26,7 @@ If applicable, add screenshots to help explain your problem.
 You can help speed up fixing the problem by either
 
 1. providing a simple reproduction
-2. linking to your Quartz repository where the problem can be observed
+2. linking to your repository where the problem can be observed
 
 **Device:**
 
