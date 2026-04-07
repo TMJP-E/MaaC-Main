@@ -17,10 +17,3 @@ replit.nix
 *.canvas
 *.stfolder
 *.kra
-
-# Drafts, change on quartz.config.ts as well.
-1-TheFoundations/
-2-CountingNumbers/
-3-StructuringNumbers/
-4-GoingBeyond/
-5-BeyondUniverse/
