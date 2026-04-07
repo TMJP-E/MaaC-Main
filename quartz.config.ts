@@ -6,6 +6,7 @@ import * as Plugin from "./quartz/plugins"
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
+
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Mathematics as a Construct",
@@ -15,9 +16,9 @@ const config: QuartzConfig = {
     analytics: {
       provider: "umami",
       host: "https://cloud.umami.is/script.js",
-      websiteId: "cb9b11e7-0783-4893-a83a-cba08ad6d9e6",
+      websiteId: "", //Must edit for each repository website.
     },
-    locale: "en-US",
+    locale: "en-US", //Adjust to translation language.
     baseUrl: "tmjp-e.github.io/MaaC",
     ignorePatterns: [
       "private",
@@ -61,8 +62,8 @@ const config: QuartzConfig = {
           dark: "#e0e0e0",
           secondary: "#0066ff",
           tertiary: "#ff6600",
-          highlight: "#22aa2266",
-          textHighlight: "#aa22aa66",
+          highlight: "#2252aa66",
+          textHighlight: "#5080be80",
         },
       },
     },
