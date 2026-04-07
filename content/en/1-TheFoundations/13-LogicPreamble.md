@@ -1,0 +1,4 @@
+---
+aliases:
+  - Preamble on Logic
+---
