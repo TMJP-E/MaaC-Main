@@ -1,4 +1,0 @@
----
-alias:
-  - Results, definitions, terms.
----

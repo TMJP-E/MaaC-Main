@@ -1,4 +1,0 @@
----
-aliases:
-  - How to Count
----
