@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Something about Quartz isn't working the way you expect
+about: Something about the project isn't working as expected
 title: ""
 labels: bug
 assignees: ""
@@ -28,12 +28,9 @@ You can help speed up fixing the problem by either
 1. providing a simple reproduction
 2. linking to your Quartz repository where the problem can be observed
 
-**Desktop (please complete the following information):**
+**Device:**
 
-- Quartz Version: [e.g. v4.1.2]
-- `node` Version: [e.g. v18.16]
-- `npm` version: [e.g. v10.1.0]
-- OS: [e.g. iOS]
+- OS: [e.g. Windows, iOS]
 - Browser [e.g. chrome, safari]
 
 **Additional context**

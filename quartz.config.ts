@@ -1,4 +1,3 @@
-import { byAlphabeticalOrderOnly } from "./quartz/addons/sorting"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
@@ -13,13 +12,13 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null, //{
-    //  provider: "umami",
-    //  host: "<your-umami-host>",
-    // websiteId: "<your-umami-website-id>",
-    //},
+    analytics: {
+      provider: "umami",
+      host: "https://cloud.umami.is/script.js",
+      websiteId: "cb9b11e7-0783-4893-a83a-cba08ad6d9e6",
+    },
     locale: "en-US",
-    baseUrl: "TMJP-E.github.io/MaaC",
+    baseUrl: "tmjp-e.github.io/MaaC",
     ignorePatterns: [
       "private",
       "templates",
@@ -38,21 +37,21 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: " Newsreader ",
-        body: "Crimson Text",
-        code: "Google Sans Code ",
+        header: "GFS Didot",
+        body: "Rufina",
+        code: "Google Sans Code",
       },
       colors: {
         lightMode: {
           light: "#f1f1f1",
           lightgray: "#d1d1d1",
           gray: "#b1b1b1",
-          darkgray: "#717171",
-          dark: "#313131",
-          secondary: "#ff8800",
-          tertiary: "#0088ff",
-          highlight: "#88ff88",
-          textHighlight: "#ff88ff",
+          darkgray: "#212121",
+          dark: "#111111",
+          secondary: "#60aaf0",
+          tertiary: "#fba000",
+          highlight: "#effaffff",
+          textHighlight: "#fffaf0",
         },
         darkMode: {
           light: "#1f1f1f",
@@ -97,8 +96,6 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
-      Plugin.FolderPage({ sort: byAlphabeticalOrderOnly() }),
-      Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,
@@ -108,6 +105,7 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
+      Plugin.CNAME(),
       // Comment out CustomOgImages to speed up build time
       // Plugin.CustomOgImages(),
     ],
