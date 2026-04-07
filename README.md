@@ -12,12 +12,6 @@ This template doesn't have any `content`, as it can be used as a base for each t
 
 Planned and implemented features on a check list, which do not depend on the translation and can be distributed as part of the template.
 
-- [x] **Chapter 1:** The foundations
-- [ ] **Chapter 2:** Counting Numbers.
-- [ ] **Chapter 3:** Structuring Numbers.
-- [ ] **Chapter 4:** Going beyond.
-- [ ] **Chapter 5:** Beyond the universe.
-
 - [ ] GitHub-based translation framework.
 - [ ] Multiple subdomains and repositories for each translation.
 - [ ] Custom CSS changes.
